@@ -6,10 +6,9 @@
 
 यह कई वेरिएंट के साथ एक मूल्य की तुलना करने के लिए अधिक वर्णनात्मक तरीका देता है।
 
-## The syntax
+## वाक्य रचना
 
-एक `स्विच` एक या एक से अधिक है `केस`
-The `switch` has one or more `case` ब्लॉक और एक वैकल्पिक डिफ़ॉल्ट।
+एक `स्विच` एक या एक से अधिक है `केस`  ब्लॉक और एक वैकल्पिक डिफ़ॉल्ट।
 
 
 यह इस तरह दिखता है:
@@ -36,7 +35,7 @@ switch(x) {
 
 ## An example
 
-An example of `switch` (the executed code is highlighted):
+`स्विच` (निष्पादित कोड हाइलाइट किया गया है) का एक उदाहरण:
 
 ```js run
 let a = 2 + 2;
@@ -58,13 +57,15 @@ switch (a) {
 }
 ```
 
-Here the `switch` starts to compare `a` from the first `case` variant that is `3`. The match fails.
+यहाँ `स्विच` पहले `केस` वेरिएंट `3` से `a` की तुलना करना शुरू करता है । मैच फेल।
 
-Then `4`. That's a match, so the execution starts from `case 4` until the nearest `break`.
 
-**If there is no `break` then the execution continues with the next `case` without any checks.**
+फिर `4`। यह एक मैच है, इसलिए निष्पादन `केस 4` से शुरू होता है जब तक कि निकटतम` ब्रेक` नहीं।
 
-An example without `break`:
+**यदि कोई `ब्रेक` नहीं है, तो निष्पादन बिना किसी जाँच के अगले` केस` के साथ जारी है।**
+
+
+`ब्रेक` के बिना एक उदाहरण:
 
 ```js run
 let a = 2 + 2;
@@ -82,8 +83,7 @@ switch (a) {
 */!*
 }
 ```
-
-In the example above we'll see sequential execution of three `alert`s:
+ऊपर के उदाहरण में हम तीन `alert`s का अनुक्रमिक निष्पादन देखेंगे।
 
 ```js
 alert( 'Exactly!' );
@@ -94,7 +94,7 @@ alert( "I don't know such values" );
 ````smart header="Any expression can be a `switch/case` argument"
 Both `switch` and `case` allow arbitrary expressions.
 
-For example:
+उदाहरण के लिए:
 
 ```js run
 let a = "1";
@@ -145,11 +145,11 @@ Now both `3` and `5` show the same message.
 
 The ability to "group" cases is a side-effect of how `switch/case` works without `break`. Here the execution of `case 3` starts from the line `(*)` and goes through `case 5`, because there's no `break`.
 
-## Type matters
+## प्रकार मायने रखता है
 
-Let's emphasize that the equality check is always strict. The values must be of the same type to match.
+आइए जोर देते हैं कि समानता की जांच हमेशा सख्त होती है। मान मिलान करने के लिए एक ही प्रकार के होने चाहिए।
 
-For example, let's consider the code:
+उदाहरण के लिए, आइए कोड पर विचार करें:
 
 ```js run
 let arg = prompt("Enter a value?");
