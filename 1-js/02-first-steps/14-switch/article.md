@@ -1,14 +1,18 @@
-# The "switch" statement
+# The "switch" statement (स्विच स्टेटमेंट)
 
-A `switch` statement can replace multiple `if` checks.
 
-It gives a more descriptive way to compare a value with multiple variants.
+एक `स्विच` बयान एक से ज्यादा `इफ` जाँच प्रतिस्थापित कर सकता है
+
+
+यह कई वेरिएंट के साथ एक मूल्य की तुलना करने के लिए अधिक वर्णनात्मक तरीका देता है।
 
 ## The syntax
 
-The `switch` has one or more `case` blocks and an optional default.
+एक `स्विच` एक या एक से अधिक है `केस`
+The `switch` has one or more `case` ब्लॉक और एक वैकल्पिक डिफ़ॉल्ट।
 
-It looks like this:
+
+यह इस तरह दिखता है:
 
 ```js no-beautify
 switch(x) {
