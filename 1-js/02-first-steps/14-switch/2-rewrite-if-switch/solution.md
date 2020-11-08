@@ -1,4 +1,5 @@
-The first two checks turn into two `case`. The third check is split into two cases:
+
+पहले दो चेक दो `केस` में बदल जाते हैं। तीसरी जांच दो मामलों में विभाजित है |
 
 ```js run
 let a = +prompt('a?', '');
@@ -21,6 +22,9 @@ switch (a) {
 }
 ```
 
-Please note: the `break` at the bottom is not required. But we put it to make the code future-proof.
+कृपया ध्यान दें: तल पर `ब्रेक` की आवश्यकता नहीं है। लेकिन हमने इसे कोड को भविष्य दृढ़ बनाने के लिए रखा है।
 
-In the future, there is a chance that we'd want to add one more `case`, for example `case 4`. And if we forget to add a break before it, at the end of `case 3`, there will be an error. So that's a kind of self-insurance.
+
+भविष्य में, एक मौका है कि हम एक और `केस` जोड़ना चाहते हैं, उदाहरण के लिए` केस 4`। और अगर हम `केस 3` के अंत में इससे पहले एक `ब्रेक` जोड़ना भूल जाते हैं, तो एक त्रुटि होगी। तो यह एक प्रकार का स्व-बीमा है।
+
+

@@ -1,10 +1,10 @@
-importance: 4
+महत्त्व: 4
 
 ---
 
-# Rewrite "if" into "switch"
+# Rewrite "इफ" into "स्विच"
 
-Rewrite the code below using a single `switch` statement:
+एकल `स्विच` कथन का उपयोग करके नीचे दिए गए कोड को फिर से लिखें
 
 ```js run
 let a = +prompt('a?', '');
