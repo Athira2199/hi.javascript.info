@@ -1,10 +1,10 @@
-importance: 5
+महत्त्व : 5
 
 ---
 
-# Rewrite the "switch" into an "if"
+# "स्विच" को "इफ" में बदलें
 
-Write the code using `if..else` which would correspond to the following `switch`:
+`if..else` का उपयोग करके कोड लिखें जो निम्नलिखित `स्विच` के अनुरूप होगा:
 
 ```js
 switch (browser) {

@@ -1,6 +1,6 @@
-To precisely match the functionality of `switch`, the `if` must use a strict comparison `'==='`.
+`स्विच` की कार्यक्षमता का ठीक से मिलान करने के लिए, `इफ` को एक सख्त तुलना `===` का उपयोग करना चाहिए।
 
-For given strings though, a simple `'=='` works too.
+लेकिन `स्ट्रिंग` के लिए, एक सरल `==` भी काम करता है।
 
 ```js no-beautify
 if(browser == 'Edge') {
@@ -15,6 +15,6 @@ if(browser == 'Edge') {
 }
 ```
 
-Please note: the construct `browser == 'Chrome' || browser == 'Firefox' …` is split into multiple lines for better readability.
+कृपया ध्यान दें:  निर्माण `browser == 'Chrome' || browser == 'Firefox' …` बेहतर पठनीयता के लिए कई लाइनों में विभाजित है।
 
-But the `switch` construct is still cleaner and more descriptive.
+लेकिन `स्विच` निर्माण अभी भी स्वच्छ और अधिक वर्णनात्मक है।
