@@ -29,9 +29,9 @@ switch(x) {
 }
 ```
 
-- The value of `x` is checked for a strict equality to the value from the first `case` (that is, `value1`) then to the second (`value2`) and so on.
-- If the equality is found, `switch` starts to execute the code starting from the corresponding `case`, until the nearest `break` (or until the end of `switch`).
-- If no case is matched then the `default` code is executed (if it exists).
+- `X` के मान को पहले `केस` (यानी `value1`) से दूसरे (यानी `value2`)और इसी तरह सारे `केस` मान के लिए एक सख्त समानता के लिए जाँच की जाती है।
+- यदि समानता पाई जाती है, तो `स्विच` संबंधित` केस` से शुरू होने वाले कोड को निष्पादित करना शुरू कर देता है, जब तक कि निकटतम `ब्रेक` (या` स्विच` के अंत तक)।
+- यदि कोई मामला मेल नहीं खाता है, तो `डिफ़ॉल्ट` कोड निष्पादित किया जाता है (यदि यह मौजूद है)।
 
 ## An example
 
@@ -141,9 +141,9 @@ switch (a) {
 }
 ```
 
-Now both `3` and `5` show the same message.
+अब दोनों `3` और` 5` एक ही संदेश दिखाते हैं।
 
-The ability to "group" cases is a side-effect of how `switch/case` works without `break`. Here the execution of `case 3` starts from the line `(*)` and goes through `case 5`, because there's no `break`.
+"समूह" मामलों की क्षमता एक साइड-इफेक्ट है कि `स्विच / केस` बिना` ब्रेक` के कैसे काम करता है। यहाँ `केस 3` का निष्पादन लाइन` (*) से शुरू होता है और `केस 5` से गुजरता है, क्योंकि वहाँ` ब्रेक` नहीं है।
 
 ## प्रकार मायने रखता है
 
